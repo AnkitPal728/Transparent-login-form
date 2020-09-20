@@ -1,0 +1,59 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    background: url(london-eye-945497_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.cont{
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.cont h1{
+    color: black;
+    font-family: 'Baloo Thambi 2', cursive;
+    display: inline-block;
+    border-bottom: 3px solid rgb(58, 58, 61);
+    margin-bottom: 40px;
+}
+.box{
+    width: 99%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.box input{
+    /*background: none;*/
+    width: 85%;
+    border: none;
+    border-bottom: 2px solid rgb(58, 58, 61);
+    font-family: 'Baloo Thambi 2', cursive;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    /*text-align: center;*/
+    background: none;
+    margin: 10px 10px;
+}
+.box i{
+    color: black;
+}
+.btn{
+    cursor: pointer;
+    font-family: 'Baloo Thambi 2', cursive;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(58, 58, 61);
+    padding: 5px 10px;
+    margin: 12px 0px;
+    background: none;
+}
+.btn:hover{
+    color: rgb(58, 58, 61);
+    background: white;    
+}
